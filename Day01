@@ -1,6 +1,5 @@
-<<<QUESTION 1>>>
+Question. 1) Write a program to Calculate sum of first N natural numbers.
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
     int n,sum=0;
@@ -11,12 +10,12 @@ int main()
         sum+=i;
     }
     printf("Sum of first %d natural numbers is %d",n,sum);
-    getch();
+
     return 0;
 }
-<<<QUESTION 2>>>
+
+Question. 2) Write a program to Print multiplication table of a given number.
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
     int num;
@@ -29,9 +28,9 @@ int main()
     }
     return 0;
 }
-<<<QUESTION 3>>>
+
+Question. 3) Write a program to Find factorial of a number.
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
     int n;
@@ -43,12 +42,12 @@ int main()
         factorial*=i;
     }
     printf("Factorial of %d is %lld",n,factorial);
-    getch();
+
     return 0;
 }
-<<<QUESTION 4>>>
+
+Question. 4) Write a program to Count digits in a number.
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
     int num,count=0;
@@ -60,6 +59,7 @@ int main()
         count++;
     }
     printf("Number of digits is %d",count);
+
     return 0;
 }
 
