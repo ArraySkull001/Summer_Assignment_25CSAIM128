@@ -23,7 +23,7 @@ int main()
     return 0;
 }
 
-Question. 14)Write a program to Find nth Fibonacci term.
+Question. 14) Write a program to Find nth Fibonacci term.
 #include <stdio.h>
 
 int main()
